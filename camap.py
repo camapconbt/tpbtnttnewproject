@@ -1,3 +1,6 @@
-import random
-t=["t","l","h","si","v","a"]
-print(random.choices(t))
+def multiply(a, b, c):
+    return a * b * c
+
+numbers = {2, 3, 4}
+result = multiply(*numbers)  
+print(result) 
